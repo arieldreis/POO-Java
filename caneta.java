@@ -27,5 +27,16 @@ public class caneta {
         System.out.println("A metragem da ponta de sua caneta é de " + mypen.ponta + "cm");
         System.out.println("A sua caneta está tampada: " + mypen.tampada);
         mypen.rabiscar();
+        mypen.tampar();
+        mypen.destampar();
+        /*Caneta 2*/
+        System.out.println("-------------------------------------------------------------------------");
+        caneta mypen2 = new caneta("Vermelha", 0.6f, false);
+        System.out.println("A cor da sua caneta é " + mypen2.cor);
+        System.out.println("A metragem da ponta de sua caneta é de " + mypen2.ponta + "cm");
+        System.out.println("A sua caneta está tampada: " + mypen2.tampada);
+        mypen2.rabiscar();
+        mypen2.tampar();
+        mypen2.destampar();
     }
 }
