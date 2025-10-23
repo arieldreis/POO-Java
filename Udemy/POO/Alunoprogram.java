@@ -1,7 +1,7 @@
 import entities.aluno;
 import java.util.Locale;
 import java.util.Scanner;
-public class AlunoProgram {
+public class Alunoprogram {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc =  new Scanner(System.in);

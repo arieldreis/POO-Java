@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Locale;
 import entities.product;
-public class store {
+public class Store {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
